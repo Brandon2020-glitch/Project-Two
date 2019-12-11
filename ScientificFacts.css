@@ -1,0 +1,19 @@
+.box {
+  color: pink;
+  border-radius: 5px;
+  border: 2px blak solid;
+  color: pink ;
+  font-size: 25px
+}
+ .grid {
+  width: 100%;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+}
+.sci {
+	 height: 100%;
+	 width: 100%;
+	 background-repeat: no-repeat ;
+}
+

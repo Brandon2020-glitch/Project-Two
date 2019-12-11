@@ -1,0 +1,71 @@
+body{
+	background-color: #13416F;
+}
+.grid{
+grid-template-columns: 33.33% 33.33% 33.33% ;
+grid-template-rows: 360px 360px 360px ;
+display: grid;
+height: 1px ;
+}
+.math{
+grid-template-columns: 33.33% 33.33% 33.33% ;
+grid-template-rows: 360px 360px 360px ;
+display: grid;
+height: 1200px ;
+color: white ;
+}
+.box {
+background-color: white;
+color: white;
+border-radius: 5px;
+border: 20px white solid;
+height: 10px ;
+}
+
+.item2{
+font-size: 20px;
+grid-column-start: 1;
+grid-row-start: 1;
+}
+.item3{
+font-size: 20px;
+grid-column-start: 2;
+grid-row-start: 1;
+}
+.item4{
+font-size: 20px;
+grid-column-start: 3;
+grid-row-start: 1;
+}
+.item5{
+grid-column-start: 1;
+grid-row-start: 3;
+}
+.item6{
+grid-column-start: 2;
+grid-row-start: 3;
+}
+.item7{
+grid-column-start: 3;
+grid-row-start: 3;
+}
+.item8{ 
+grid-row-start:2;
+grid-collumn-end:2 ;
+}
+.happy{
+width: 610px;
+height: 500px
+}
+.sad{
+width: 610px ;
+height: 500px ;
+}
+.mutual{
+width: 610px ;
+height: 500px ;
+}
+.mean{
+width: 1870px;
+height: 300px;
+}
